@@ -14,8 +14,10 @@ node -e "console.log('0x' + require('crypto').randomBytes(32).toString('hex'))"
 
 Then export the variables:
 
+```bash
 export PROJECT_ID="your project ID"
 export PRIVATE_KEY="your private key"
+```
 
 
 ## Gasless Batched Transactions with ZeroDev SDK
